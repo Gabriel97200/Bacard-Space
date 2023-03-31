@@ -1,0 +1,27 @@
+.banner {
+    background-image: url("../images/CUBAAA.jpeg");
+    height: 80vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.banner h1, .banner p {
+    color: white;
+}
+
+.banner img {
+    width: 600px;
+}
+
+.banner .details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 32px;
+}
